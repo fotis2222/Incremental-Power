@@ -26,12 +26,12 @@ body {
   font-size: 20px;
 }
 
-.power-button {
+button {
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
   transition: background-color 0.25s ease;
 }
 
-.power-button:hover {
+button:hover {
   background-color: rgb(255, 255, 0);
 }
