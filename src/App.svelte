@@ -63,7 +63,7 @@
 <hr>
 <h2>Energize(DOESN'T WORK)</h2>
 <p>Energize will reset everything so far for energy.</p>
-<button>Do it for {level - 1} energy</button>
+<button class="energize-button">Do it for {level - 1} energy</button>
 <hr>
 <h2>Credits</h2>
 <p>Code: me</p>
