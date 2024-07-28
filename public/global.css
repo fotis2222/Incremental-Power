@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  font-family: Victor mono;
+  margin: 10px, 10px;
+}
+
+body {
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(30, 30, 30));
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.power-display {
+  font-size: 30px;
+}
+
+.level-display {
+  font-size: 20px;
+}
+
+.power-button {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  transition: background-color 0.25s ease;
+}
+
+.power-button:hover {
+  background-color: rgb(255, 255, 0);
+}
